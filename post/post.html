@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post App</title>
+    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <div class="co">
+        <h2 class="welcome">Post App</h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <form id="postForm">
+        <input id="postTitle" type="text" required placeholder="Enter Post Title">
+        <textarea id="postContent" required placeholder="Enter Post Description"></textarea>
+        <button id="sub" type="submit">Post</button>
+    </form>
+
+    <div class="output">
+    </div>
+
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="post.js"></script>
+</body>
+
+</html>

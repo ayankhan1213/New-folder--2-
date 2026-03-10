@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+
+h2{
+    font-size:36px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.form{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+fieldset{
+    width:100%;
+    max-width:350px;
+    padding:25px;
+    border:2px solid black;
+    border-radius:6px;
+}
+
+legend{
+    font-size:18px;
+    font-weight:500;
+}
+
+label{
+    font-size:14px;
+}
+
+fieldset input{
+    width:100%;
+    padding:8px;
+    margin:8px 0 15px 0;
+}
+
+a{
+    font-size:13px;
+    text-decoration:none;
+    display:block;
+    margin-bottom:10px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:black;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:active{
+    transform:scale(0.97);
+}
+
+
+/* Tablet */
+
+@media (max-width:768px){
+
+    h2{
+        font-size:30px;
+    }
+
+    fieldset{
+        max-width:320px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width:480px){
+
+    h2{
+        font-size:26px;
+    }
+
+    fieldset{
+        padding:20px;
+        max-width:100%;
+    }
+
+}
